@@ -6,14 +6,11 @@
   folder: 
 
   <<ANSWER
-Welcome To Bot
 
-/Username To Set Your Username
   ANSWER
-
-  <<KEYBOARD
-
-  KEYBOARD
+  keyboard: 
   aliases: 
 CMD*/
 
+var banned = User.getProperty("username"+user.username)
+Bot.sendMessage(banned + "   h")

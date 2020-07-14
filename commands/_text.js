@@ -1,5 +1,5 @@
 /*CMD
-  command: /Username
+  command: /text
   help: 
   need_reply: true
   auto_retry_time: 
@@ -9,6 +9,5 @@
   aliases: 
 CMD*/
 
-User.setProperty("username", message, "string");
-
-Bot.sendMessage("Username Has Been Saved✅")
+User.setProperty("tempusername", message, "string");
+Bot.run({command:"/hehe"})
