@@ -9,4 +9,4 @@
   aliases: 
 CMD*/
 
-Bot.sendMessage(options.weburl +  "?utm_source=facebook_fb01a&utm_medium=facebook_fb01a_" + User.getProperty("username"))
+Bot.sendMessage(options.weburl +  "?utm_source=facebook_fb01a&utm_medium=facebook_fb01a_" + User.getProperty("tempusername"))

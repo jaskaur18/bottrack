@@ -6,14 +6,13 @@
   folder: 
 
   <<ANSWER
-  Inserisci il tuo post 
+Inserisci il tuo post 
 
 Ex- google.com
   ANSWER
   keyboard: 
   aliases: 
 CMD*/
-
 
 if(user.username=="sartorellino"){
 
