@@ -10,6 +10,5 @@
 CMD*/
 
 Bot.editInlineKeyboard([]);
-User.setProperty("username"+User.getproperty("username"),"banned","string")
-Bot.sendMessage("@"+params+"user successful banned from bot")
-
+Bot.setProperty("banned"+params,"banned","string")
+Bot.sendMessage("@"+params+" Is Successful Ban From The Bot")
