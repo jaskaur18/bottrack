@@ -17,7 +17,7 @@ CMD*/
 if(user.username=="sartorellino"){
 
 
-Bot.sendMessage("Url Is Send✅✅✅ ")
+Bot.sendMessage("Link inviato ✅✅✅")
 
 
 Bot.runAll({
@@ -30,8 +30,8 @@ options:{weburl:message}
 else if(user.username=="pippocl"){let url = data.message
 
 
-Bot.sendMessage(url +"?utm_source=facebook_fb01a&utm_medium=facebook_fb01a_"+User.getProperty("username"))
-Bot.sendMessage("Url is Send✅✅✅")
+
+Bot.sendMessage("Link inviato ✅✅✅")
 
 Bot.runAll({
 command: "/message",
@@ -44,8 +44,8 @@ options:{weburl:message}
 else if(user.username=="Jollysx82"){let url = data.message
 
 
-Bot.sendMessage(url +"?utm_source=facebook_fb01a&utm_medium=facebook_fb01a_"+User.getProperty("username"))
-Bot.sendMessage("Url Is Send✅✅✅")
+
+Bot.sendMessage("Link inviato ✅✅✅")
 Bot.runAll({
 command: "/message",
 options:{weburl:message}

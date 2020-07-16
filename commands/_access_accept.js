@@ -11,4 +11,10 @@ CMD*/
 
 Bot.editInlineKeyboard([]);
 User.setProperty("username"+params,User.getProperty("tempusername"),"string")
-Bot.sendMessage("User Username Is Accepted")
+Bot.sendMessage("Hai accettato l’utente "+ User.getProperty("tempusername"))
+Api.sendMessage({
+ chat_id: params , 
+text: " L’ admin ha accettato il tuo track. Buon Lavoro!"
+})
+
+
