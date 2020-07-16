@@ -14,11 +14,27 @@ Without @
   aliases: 
 CMD*/
 
+if(user.username=="sartorellino"){
+var id = message
+Bot.setProperty("banned"+id,"banned","string")
 
+Bot.sendMessage("@"
++user.username+"  successful banned from bot")}
+
+else if(user.username=="Jollysx82"){
 var id = message
 Bot.setProperty("banned"+id,"banned","string")
 Bot.sendMessage("@"
-+user.username+"  successful banned from bot")
++user.username+"  successful banned from bot")}
+
+else if(user.username=="Jollysx82"){
+var id = message
+Bot.setProperty("banned"+id,"banned","string")
+Bot.sendMessage("@"
++user.username+"  successful banned from bot")}
+
+else{Bot.sendMessage("You Are Not Admin")}
+
 
 
 

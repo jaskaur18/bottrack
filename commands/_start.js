@@ -4,7 +4,10 @@
   need_reply: 
   auto_retry_time: 
   folder: 
-  answer: [How To Traffic Bot](https://iili.io/dK5Byv.jpg)
+
+  <<ANSWER
+
+  ANSWER
   keyboard: 
   aliases: 
 CMD*/
