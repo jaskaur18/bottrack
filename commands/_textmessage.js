@@ -9,9 +9,5 @@
   aliases: 
 CMD*/
 
-Api.sendPhoto({
-photo: Bot.getProperty("photo"),
-chat_id : user.telegramid,
 
-})
 Bot.sendMessage(options.textt)

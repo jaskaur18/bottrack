@@ -18,8 +18,3 @@ else{
 User.setProperty("tempusername", message, "string");
 Bot.runCommand("/sendadmin")
 }
-
-
-
-
-
