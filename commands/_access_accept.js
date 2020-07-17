@@ -16,5 +16,3 @@ Api.sendMessage({
  chat_id: params , 
 text: " L’ admin ha accettato il tuo track. Buon Lavoro!"
 })
-
-

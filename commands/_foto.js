@@ -1,21 +1,17 @@
 /*CMD
-  command: /scrivi
+  command: /foto
   help: 
   need_reply: true
   auto_retry_time: 
   folder: 
-  answer: Inserisci il Testo.
+  answer: invia una foto
   keyboard: 
   aliases: 
 CMD*/
 
-
-let textt = message
-
-
-
+Bot.setProperty("photo",request.photo[0].file_id)
 Bot.runAll({
-command: "/textmessage",
-options: {textt: message}
+command: "/foto1"
+
 })
 Bot.sendMessage("Il messaggio e’ stato inviato." )

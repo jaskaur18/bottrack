@@ -34,7 +34,3 @@ Bot.sendMessage("@"
 +user.username+"  successful banned from bot")}
 
 else{Bot.sendMessage("You Are Not Admin")}
-
-
-
-
